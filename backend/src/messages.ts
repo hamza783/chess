@@ -1,0 +1,7 @@
+export const STATS = 'stats'
+export const INIT_GAME = 'init_game'
+export const CANCEL_INIT_GAME = 'cancel_init_game'
+export const START_GAME = 'start_game'
+export const MOVE = 'move'
+export const GAME_OVER = 'game_over'
+export const WAITING_FOR_PLAYER = 'waiting_for_player'
