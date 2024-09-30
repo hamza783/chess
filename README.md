@@ -10,7 +10,14 @@ node dist/index.js
 ```
 
 ### Step 2: Run frontend server
-Navigate to the `frontend` folder and run this command
+Navigate to the `frontend` folder
+
+Run this command to update all dependencies. Only need to do it once
+```
+yarn install
+```
+
+Run this command to run the project
 ```
 npm run dev
 ```
