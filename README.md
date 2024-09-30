@@ -2,7 +2,7 @@
 
 ## How to run the game locally
 
-### Step 1: Run backend serve.
+### Step 1: Run backend server.
 
 Navigate to the `backend` folder and run this command.
 ```
@@ -26,17 +26,25 @@ npm run dev
 
 ## Backend
 Step 1: make changes locally in backend source code.
+
 Step 2: Build the code using this command: `tsc -b`
+
 Step 3: run back end server: `node dist/index.js`
 
 ### Testing backend changes
 Step 1: Make sure server is running.
+
 Step 2: Navigate to `https://hoppscotch.io/realtime/websocket` to test the backend changes
+
 Step 3: Enter this websocket url: `ws://localhost:8080/ws`
+
 Step 4: Connect to server and make sure the connection is successful.
+
 Step 5: Test your changes.
 
 Example payloads.
+
+
 #### Init game
 {
   "type": "init_game"
